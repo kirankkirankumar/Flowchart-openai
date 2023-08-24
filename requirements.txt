@@ -1,0 +1,4 @@
+streamlit
+openapi
+langchain
+huggingface_hub
