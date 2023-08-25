@@ -1,7 +1,7 @@
 import openai
 
 # Set up your OpenAI API key
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Collect user input
 user_input = "Describe the process of withrdrawing money in ATM if amount is available in account otherwise throw an error"
