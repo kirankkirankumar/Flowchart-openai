@@ -1,5 +1,4 @@
 import streamlit as st
-from langchain_library import LangChainApp
 import openai
 
 # Set up your OpenAI API key
