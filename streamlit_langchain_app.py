@@ -19,7 +19,6 @@ class LangChainApp:
 
 def main():
     st.title("LangChain Application")
-@@ -9,7 +24,8 @@ def main():
     user_input = st.text_input("Enter your text:")
     if st.button("Analyze"):
         result = langchain_app.analyze_text(user_input)
