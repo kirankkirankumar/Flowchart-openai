@@ -1,4 +1,4 @@
 streamlit
-openapi
+openai
 langchain
 huggingface_hub
