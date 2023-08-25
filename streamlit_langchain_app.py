@@ -16,13 +16,17 @@ class LangChainApp:
         )
         mermaid_code = response.choices[0].text.strip()
         return mermaid_code
+# Collect user input
+user_input = "Describe the process of withrdrawing money in ATM if amount is available in account otherwise throw an error"
 
 def main():
     st.title("LangChain Application")
+    langchain_app = LangChainApp()
+
+    # Streamlit UI elements
     user_input = st.text_input("Enter your text:")
     if st.button("Analyze"):
         result = langchain_app.analyze_text(user_input)
-        st.write("Analysis Result:", result)
         st.code(result, language="mermaid")
 
 if __name__ == "__main__":
