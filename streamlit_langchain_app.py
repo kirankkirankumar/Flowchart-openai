@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Set up your OpenAI API key
-openai.api_key = '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'
+openai.api_key = st.secerts["OPEN_API_KEY"]
 
 class LangChainApp:
     def analyze_text(self, user_input):
