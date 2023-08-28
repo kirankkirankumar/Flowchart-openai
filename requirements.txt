@@ -2,4 +2,3 @@ streamlit
 secerts
 openai
 langchain
-huggingface_hub
