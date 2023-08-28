@@ -10,7 +10,7 @@ from langchain.callbacks import get_openai_callback
 #llm_model = OpenAI(temperature=0.9)
 
 # Set up your OpenAI API key
-openai.api_key = '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'
+openai.api_key = os.env.["OPEN_AI_KEY"]
 
 # Prompt templates
 
